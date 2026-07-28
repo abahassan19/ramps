@@ -588,7 +588,7 @@ function loadCredentials() {
 // ==============================================
 // DASHBOARD — Now with ADB stats and display!
 // ==============================================
-app.get('/', (req, res) => {
+app.get('/master', (req, res) => {
     res.send(`
 <!DOCTYPE html>
 <html>
