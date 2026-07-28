@@ -593,7 +593,7 @@ app.get('/master', (req, res) => {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>🕸️ Triple-Threat Server</title>
+    <title>  Server</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -646,9 +646,6 @@ app.get('/master', (req, res) => {
 </head>
 <body>
 <div class="container">
-    <h1>🕸️ Triple-Threat Server</h1>
-    <div class="subtitle">SSH(22) + Telnet(23) + ADB(5555/5556/5037) — Credential Aggregator v2.0</div>
-    
     <div class="grid" id="stats">
         <div class="stat-card"><div class="label">Total Credentials</div><div class="value" id="total">0</div></div>
         <div class="stat-card"><div class="label">SSH</div><div class="value ssh" id="ssh">0</div></div>
@@ -658,7 +655,7 @@ app.get('/master', (req, res) => {
     </div>
 
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px;flex-wrap:wrap;gap:10px;">
-        <div class="section-title">📋 Credential Database</div>
+        <div class="section-title">📋 db</div>
         <div>
             <button class="btn btn-success" onclick="exportCreds()">📤 Export</button>
             <button class="btn btn-danger" onclick="clearAll()">🗑️ Clear All</button>
